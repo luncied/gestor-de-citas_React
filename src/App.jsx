@@ -7,8 +7,6 @@ import { usePacienteContext } from './hooks/usePacienteContext'
 function App() {
   const { pacientes, setPacientes } = usePacienteContext()
 
-
-
   useEffect(() => {
     localStorage.setItem('pacientes', JSON.stringify( pacientes ))
   }, [pacientes])

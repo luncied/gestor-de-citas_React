@@ -1,8 +1,14 @@
-# React + Vite
+# Proyecto de citas para pacientes de una veterinaria
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto se ha construido con las siguientes tecnologías :
+- React
+- JavaScript
+- HTML
+- CSS
 
-Currently, two official plugins are available:
+Y ha sido desplegado en netlify con el siguiente link :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Accede al sitio](https://superlative-dusk-bef752.netlify.app/)
+
+Este es un proyecto de *Front-End*
+El proyecto almacena los datos de los pacientes que acceden a la veterinaria y los guarda en LocalStorage
