@@ -1,11 +1,11 @@
-import { createContext, useState } from 'react'
+import { createContext, useState, useEffect } from 'react'
 
 // 1. Crear el contexto
 const PacienteContext = createContext()
 
 // 2. Crear el Proveedor del contexto (privider)
 function PacienteProvider ({ children }) {
-  const [pacientes, setPacientes] = useState([])
+  const [pacientes, setPacientes] = useState(JSON.parse(localStorage.getItem('pacientes')) ?? [])
   const [paciente, setPaciente] = useState({})
 
   const eliminarPaciente = (id) => {
