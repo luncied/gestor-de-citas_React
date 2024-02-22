@@ -8,7 +8,7 @@ Este proyecto se ha construido con las siguientes tecnologías :
 
 Y ha sido desplegado en netlify con el siguiente link :
 
-[Accede al sitio](https://superlative-dusk-bef752.netlify.app/)
+[Accede al sitio](https://citas-veterinaria-luncie.netlify.app)
 
 Este es un proyecto de *Front-End*
 El proyecto almacena los datos de los pacientes que acceden a la veterinaria y los guarda en LocalStorage
